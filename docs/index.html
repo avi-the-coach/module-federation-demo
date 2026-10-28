@@ -6,7 +6,7 @@ if (performance.getEntriesByType('navigation')[0]?.type === 'reload') {
   history.replaceState(history.state, '', location.pathname + location.search);
   window.addEventListener('pageshow', () => {
     window.scrollTo({top: 0, left: 0, behavior: 'instant'});
-    if ('scrollRestoration' in history) history.scrollRestoration = 'auto';
+    requestAnimationFrame(() => window.scrollTo({top: 0, left: 0, behavior: 'instant'}));
   }, {once: true});
 }
 </script><style>
