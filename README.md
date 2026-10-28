@@ -4,6 +4,9 @@
 
 ## התיעוד
 
+- [אתר מפת הידע](https://avi-the-coach.github.io/module-federation-demo/)
+- [תפיסת המערכת — טיוטה פתוחה](docs/system-concept.md): frontend/backend, מארחים, קטלוגים וניתוב פעולות.
+
 - [מפת הידע האינטראקטיבית](docs/index.html) — מטרות, טכנולוגיות, טעינה, monorepo, הרשאות ושאלות פתוחות.
 - [טיוטת Blueprint](docs/blueprint.md)
 - [יומן החלטות](docs/decisions.md)
